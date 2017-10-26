@@ -1,2 +1,27 @@
 /* Global styles */
 
+
+.spinner {
+	padding: 15px;
+	font-style: italic;
+	color: #888;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	opacity: 0;
+	animation: spinner-animation 5s ease-out 0s infinite;
+	background: transparent url('../resources/img/logo.png') center no-repeat;
+
+	@media (max-width: 991px) {
+		background-size: 200px;
+	}
+}
+
+@keyframes spinner-animation {
+    //0%   { opacity: 1; }
+    50%   { opacity: 0.7; }
+    //100%   { opacity: 1; }
+}
