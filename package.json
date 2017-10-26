@@ -1,6 +1,7 @@
 {
-	"name": "frontend",
+	"name": "projeto-base-angular",
 	"version": "0.0.0",
+	"description": "Estrutura base para projeto Angular",
 	"license": "MIT",
 	"scripts": {
 		"ng": "ng",
