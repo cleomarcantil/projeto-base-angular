@@ -5,6 +5,9 @@ import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 
+import { SharedModule } from './shared/shared.module';
+import { TestesModule } from './testes/testes.module';
+
 const routes : Routes = [
 	{
 		path: '',
@@ -24,7 +27,9 @@ const routes : Routes = [
 	],
 	imports: [
 		BrowserModule,
-		RouterModule.forRoot(routes)
+		RouterModule.forRoot(routes),
+		SharedModule,
+		TestesModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]
