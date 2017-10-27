@@ -12,6 +12,7 @@
 	height: 100%;
 
 	opacity: 0;
+	display: block !important;
 	animation: spinner-animation 5s ease-out 0s infinite;
 	background: transparent url('../resources/img/logo.png') center no-repeat;
 

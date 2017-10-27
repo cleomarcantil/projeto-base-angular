@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 	title = 'Modelo de aplicação Angular';
+
+
+	private onActivate(component) {
+		//console.log(component);
+	}
+
 }
