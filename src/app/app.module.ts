@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 
 import { SharedModule } from './shared/shared.module';
-import { TestesModule } from './testes/testes.module';
 
 const routes : Routes = [
 	{
@@ -15,10 +14,10 @@ const routes : Routes = [
 		component: IndexComponent,
 		pathMatch: 'full',
 	},
-	// { // rota para um módulo lazy load
-	// 	path: 'testes',
-	// 	loadChildren: 'app/testes/testes.module#TestesModule',
-	// },
+	{ // rota para um módulo lazy load
+		path: 'testes',
+		loadChildren: 'app/testes/testes.module#TestesModule',
+	},
 ];
 
 @NgModule({
@@ -31,7 +30,6 @@ const routes : Routes = [
 		HttpClientModule,
 		RouterModule.forRoot(routes),
 		SharedModule,
-		TestesModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]

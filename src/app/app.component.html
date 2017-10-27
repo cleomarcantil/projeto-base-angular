@@ -5,6 +5,12 @@
 
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="container">
+
+	<a [routerLink]="['/']">Home</a>
+	&nbsp;
+	&nbsp;
+	<a [routerLink]="['/testes']">Testes</a>
+
 	<router-outlet (activate)="onActivate($event)"></router-outlet>
 </div>
 
