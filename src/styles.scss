@@ -14,7 +14,7 @@
 	opacity: 0;
 	display: block !important;
 	animation: spinner-animation 5s ease-out 0s infinite;
-	background: transparent url('../resources/img/logo.png') center no-repeat;
+	background: transparent url('assets/img/logo.png') center no-repeat;
 
 	@media (max-width: 991px) {
 		background-size: 200px;

@@ -1,10 +1,10 @@
-# Frontend
+# ProjetoBaseAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
+Projeto gerado com o [Angular CLI](https://github.com/angular/angular-cli) 6.1.2.
 
-## Development server
+## Servidor de Desenvolvimento
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Execute `ng serve`. Navegue no endereço `http://localhost:4200/`. A aplicação se autorecarrega após mudanças nos arquivos fontes.
 
 ## Code scaffolding
 
@@ -12,7 +12,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Execute `ng build` para gerar os arquivos de distribuição na pasta `dist/`. Use `--prod` para build de produção.
 
 ## Running unit tests
 

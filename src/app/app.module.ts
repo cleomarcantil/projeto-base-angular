@@ -1,12 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
+
+import { SharedModule } from './shared/shared.module';
 
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 
-import { SharedModule } from './shared/shared.module';
 
 const routes : Routes = [
 	{
@@ -16,7 +17,7 @@ const routes : Routes = [
 	},
 	{ // rota para um módulo lazy load
 		path: 'testes',
-		loadChildren: 'app/testes/testes.module#TestesModule',
+		loadChildren: 'src/app/testes/testes.module#TestesModule',
 	},
 ];
 
