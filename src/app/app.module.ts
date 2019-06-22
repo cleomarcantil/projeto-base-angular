@@ -17,7 +17,7 @@ const routes : Routes = [
 	},
 	{ // rota para um módulo lazy load
 		path: 'testes',
-		loadChildren: 'src/app/testes/testes.module#TestesModule',
+		loadChildren: () => import('src/app/testes/testes.module').then(m => m.TestesModule),
 	},
 ];
 
