@@ -25,8 +25,8 @@
     "rxjs": "^6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26",
-    "jquery": "3.3.x",
-    "bootstrap": "4.1.x",
+    "jquery": "3.4.x",
+    "bootstrap": "4.3.x",
     "font-awesome": "4.7.x"
   },
   "devDependencies": {
