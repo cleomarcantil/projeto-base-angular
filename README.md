@@ -4,7 +4,8 @@ Projeto gerado com o [Angular CLI](https://github.com/angular/angular-cli) 6.1.2
 
 ## Servidor de Desenvolvimento
 
-Execute `ng serve`. Navegue no endereço `http://localhost:4200/`. A aplicação se autorecarrega após mudanças nos arquivos fontes.
+Execute `ng serve` (ou `ng serve --host 0.0.0.0` para acesso externo).
+Navegue no endereço `http://localhost:4200/`. A aplicação se autorecarrega após mudanças nos arquivos fontes.
 
 ## Code scaffolding
 
