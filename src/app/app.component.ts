@@ -6,10 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-	title = 'Modelo de aplicação Angular';
-
-
-	private onActivate(component) {
+  title = 'Modelo de aplicação Angular';
+  
+	onActivate(component) {
 		//console.log(component);
 	}
 }
